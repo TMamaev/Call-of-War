@@ -9,5 +9,19 @@ Call of War
     <div class="maintext">
         Call of War - {{ faction.name }}
     </div>
+    <div class="text">
+        {{ faction.description }}
+    </div>
+    <div class="text">
+        список стран:
+                <p>
+                    {% for country in faction.countries %}
+                        <a href="{{country.link}}">
+                            {{ country.name}}
+                        </a>
+                    {% endfor %} 
+                </p>
+                
+        </div>
 </div>
 {% endblock %}
