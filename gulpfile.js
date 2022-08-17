@@ -3,7 +3,7 @@ const render = require("gulp-nunjucks-render");
 const rename = require("gulp-rename");
 
 const src = `${__dirname}/src`;
-const dist = `${__dirname}/output`;
+const dist = `${__dirname}/docs`;
 
 const factions = [
   { 
@@ -15,28 +15,24 @@ const factions = [
 Южной Америкой.`,
     countries: [
       {
-        name: "Третий Рейх",
-        link: "Третий Рейх.html",
+        name: "СССР",
+        link: "СССР.html",
       },
       {
-        name: "Испания",
-        link: "Испания.html",
+        name: "Югославия",
+        link: "Югославия.html",
       },
       {
-        name: "Румыния",
-        link: "Румыния.html",
+        name: "Синьцзань",
+        link: "Синьцзань.html",
       },
       {
-        name: "Персия",
-        link: "Персия.html",
+        name: "Монголия",
+        link: "Монголия.html",
       },
       {
-        name: "Аргентина",
-        link: "Аргентина.html",
-      },
-      {
-        name: "Перу",
-        link: "Перу.html",
+        name: "Венесуэла",
+        link: "Венесуэла.html",
       },
     ],
   }, 
